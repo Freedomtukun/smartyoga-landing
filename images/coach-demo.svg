@@ -1,0 +1,20 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#ede9fe" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)" rx="32" />
+  <g fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 180c0-44 36-80 80-80s80 36 80 80-36 80-80 80-80-36-80-80z" opacity="0.45" />
+    <path d="M220 360c12-40 44-64 80-64s68 24 80 64" opacity="0.45" />
+    <path d="M420 160q40 20 40 72t-40 72" opacity="0.45" />
+    <circle cx="260" cy="176" r="40" />
+    <path d="M240 224c8 16 24 24 40 24s32-8 40-24" />
+    <path d="M232 336c12-24 36-40 48-40s36 16 48 40" />
+    <path d="M280 104l32-48" opacity="0.25" />
+    <path d="M196 132l-36-36" opacity="0.25" />
+  </g>
+  <text x="320" y="420" font-family="'Inter',sans-serif" font-size="32" fill="#2563eb" text-anchor="middle">Realtime Coach Preview</text>
+</svg>

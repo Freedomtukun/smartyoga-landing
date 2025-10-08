@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmartYoga Canada – AI Realtime Coach</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>SmartYoga Canada</h1>
+        <p>
+          Real-time AI yoga coaching for busy professionals. Stream your camera, receive instant
+          posture feedback, and enjoy a personalized training plan in English, French, Chinese,
+          Spanish, and Japanese.
+        </p>
+        <a class="cta" href="mailto:contact@smartyoga.ca">Join the early access</a>
+      </div>
+      <img src="images/coach-demo.svg" alt="SmartYoga Coach preview" class="hero-image" />
+    </header>
+
+    <section class="features" id="features">
+      <h2>Why SmartYoga?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Realtime Coach</h3>
+          <p>
+            WebRTC + AI pose estimation guides every move. Immediate voice cues keep you aligned and
+            safe during each session.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Personalized Programs</h3>
+          <p>
+            Adaptive thresholds learn from your history stored securely in Firestore. Weekly
+            reports highlight progress and focus areas.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>Global Support</h3>
+          <p>
+            Multilingual support agent answers billing, scheduling, and technical questions 24/7
+            through chat or email.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h2>Plans &amp; Pricing</h2>
+      <div class="pricing-grid">
+        <div class="plan-card">
+          <h3>Monthly</h3>
+          <p class="price">CA$49</p>
+          <ul>
+            <li>Unlimited realtime sessions</li>
+            <li>Weekly progress reports</li>
+            <li>Multilingual support agent</li>
+          </ul>
+        </div>
+        <div class="plan-card popular">
+          <span class="badge">Popular</span>
+          <h3>Yearly</h3>
+          <p class="price">CA$499</p>
+          <ul>
+            <li>All monthly features</li>
+            <li>Two complimentary 1:1 onboarding calls</li>
+            <li>Priority roadmap access</li>
+          </ul>
+        </div>
+        <div class="plan-card">
+          <h3>Class Packs</h3>
+          <p class="price">CA$30 / CA$60</p>
+          <ul>
+            <li>5 or 10 realtime sessions</li>
+            <li>Perfect for drop-in practice</li>
+            <li>Use anytime within 12 months</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech" id="technology">
+      <h2>Technology Stack</h2>
+      <p>
+        SmartYoga v4.0 combines WebRTC streaming, OpenAI Realtime voice synthesis, BlazePose pose
+        tracking, and Stripe commerce to deliver a seamless end-to-end coaching experience.
+      </p>
+      <ul class="tech-list">
+        <li>Realtime Coach: WebRTC, OpenAI Realtime, Audio-Mini, BlazePose</li>
+        <li>Support Agent: RESTful Grok/OpenAI LLM with Guardrails &amp; Firestore memory</li>
+        <li>Payments: Stripe Checkout + MCP actions</li>
+        <li>Infrastructure: Google Cloud Run, Cloud Scheduler, Pub/Sub audit logging</li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>
+        Interested in SmartYoga Canada for your studio or wellness program? Reach out for demos,
+        enterprise pricing, or reseller opportunities.
+      </p>
+      <div class="contact-grid">
+        <div>
+          <h4>Email</h4>
+          <a href="mailto:contact@smartyoga.ca">contact@smartyoga.ca</a>
+        </div>
+        <div>
+          <h4>Phone</h4>
+          <a href="tel:+14318221666">+1 (431) 822-1666</a>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <a href="https://www.linkedin.com/company/smartyoga" target="_blank" rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://www.instagram.com/smartyoga" target="_blank" rel="noreferrer"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> SmartYoga Canada. All rights reserved.</p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
